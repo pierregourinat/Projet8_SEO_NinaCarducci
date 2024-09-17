@@ -8,10 +8,10 @@
   "description": "Photographe professionnel spécialisée dans les portraits et les événements.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Rue de l'Exemple",
-    "addressLocality": "Ville",
-    "addressRegion": "Région",
-    "postalCode": "12345",
+    "streetAddress": "68 avenue Alsace-Lorraine",
+    "addressLocality": "Bordeaux",
+    "addressRegion": "Nouvelle Aquitaine",
+    "postalCode": "33200",
     "addressCountry": "France"
   },
   "jobTitle": "Photographe professionnel",
@@ -23,10 +23,10 @@
       "name": "Ville",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "123 Rue de l'Exemple",
-        "addressLocality": "Ville",
-        "addressRegion": "Région",
-        "postalCode": "12345",
+        "streetAddress": "68 avenue Alsace-Lorraine",
+        "addressLocality": "Bordeaux",
+        "addressRegion": "Nouvelle Aquitaine",
+        "postalCode": "33200",
         "addressCountry": "France"
       }
     },
