@@ -4,7 +4,113 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nina Carducci - Photographe</title>
-    <link rel="schema" href="https://ninacarducci.github.io/schema.json" />
+    <script>
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nina Carducci",
+        "url": "https://ninacarducci.github.io/",
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"],
+        "image": "https://www.votre-site-web.com/images/photo-de-profil.jpg",
+        "description": "Photographe professionnel spécialisée dans les portraits et les événements.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle Aquitaine",
+          "postalCode": "33200",
+          "addressCountry": "France"
+        },
+        "jobTitle": "Photographe professionnel",
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Photographe",
+          "occupationLocation": {
+            "@type": "City",
+            "name": "Ville",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "68 avenue Alsace-Lorraine",
+              "addressLocality": "Bordeaux",
+              "addressRegion": "Nouvelle Aquitaine",
+              "postalCode": "33200",
+              "addressCountry": "France"
+            }
+          },
+          "estimatedSalary": {
+            "@type": "MonetaryAmountDistribution",
+            "currency": "EUR",
+            "minValue": 40000,
+            "maxValue": 60000,
+            "name": "Salaire estimé pour un photographe professionnel",
+            "duration": "P1Y",
+            "value": {
+              "@type": "QuantitativeValue",
+              "value": 50000,
+              "unitText": "EUR"
+            }
+          }
+        },
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Séance Photo Portrait",
+              "description": "Séance photo portrait pour capturer des moments inoubliables.",
+              "serviceOutput": {
+                "@type": "ImageObject",
+                "contentUrl": "https://ninacarducci.github.io/#about",
+                "caption": "Exemple de séance photo portrait"
+              }
+            },
+            "price": "150.00",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Photographie de Mariage",
+              "description": "Service de photographie pour capturer les moments spéciaux de votre mariage.",
+              "serviceOutput": {
+                "@type": "ImageObject",
+                "contentUrl": "https://ninacarducci.github.io/#about",
+                "caption": "Exemple de photographie de mariage"
+              }
+            },
+            "price": "1000.00",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
+          }
+        ],
+        "hasWork": [
+          {
+            "@type": "CreativeWork",
+            "name": "Portrait de Famille",
+            "description": "Une série de portraits de famille capturant des moments de bonheur.",
+            "dateCreated": "2023-01-01",
+            "author": {
+              "@type": "Person",
+              "name": "Nina Carducci"
+            },
+            "image": "https://ninacarducci.github.io/images/portrait-de-famille.jpg"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Mariage à la Campagne",
+            "description": "Photographies d'un mariage à la campagne, capturant l'amour et la joie.",
+            "dateCreated": "2023-02-14",
+            "author": {
+              "@type": "Person",
+              "name": "Nina Carducci"
+            },
+            "image": "https://ninacarducci.github.io/images/mariage-a-la-campagne.jpg"
+          }
+        ]
+      }
+    </script>
     <meta
       name="description"
       content="Découvrez le portfolio de Nina Carducci, photographe passionnée par la capture de moments précieux. Services de shooting photo, retouches et albums personnalisés."
